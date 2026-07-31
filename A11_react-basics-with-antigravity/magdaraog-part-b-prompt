@@ -1,0 +1,138 @@
+You are ONLY redesigning the visual styling of my application.
+
+STRICT RULES (DO NOT VIOLATE):
+
+1. ONLY modify these two files:
+   - src/App.css
+   - src/components/tracks/SongList.css
+
+2. DO NOT edit ANY other file.
+
+3. DO NOT create new files.
+
+4. DO NOT delete any files.
+
+5. DO NOT rename any files.
+
+6. DO NOT move any files.
+
+7. DO NOT modify package.json.
+
+8. DO NOT install dependencies.
+
+9. DO NOT use npm, pnpm, yarn, bun, or any package manager.
+
+10. DO NOT change React components, JSX, HTML structure, JavaScript, or TypeScript.
+
+11. DO NOT require any configuration changes.
+
+12. ONLY rewrite and improve the CSS rules inside the two CSS files.
+
+13. Preserve all existing class names and selectors so the application continues working without requiring JSX changes.
+
+14. Do not remove existing selectors unless replacing them with equivalent improved styles.
+
+15. The application must continue functioning exactly as before. This is a visual redesign only.
+
+DESIGN GOALS
+
+Create a premium, modern music player interface.
+
+The design should feel similar in quality to applications such as:
+
+- Spotify
+- Apple Music
+- YouTube Music
+- Tidal
+- Deezer
+
+The UI should look polished, elegant, smooth, and professional.
+
+Style characteristics:
+
+• Modern glassmorphism where appropriate
+• Soft gradients
+• Layered depth
+• Beautiful shadows
+• Smooth transitions
+• Rounded corners
+• Premium spacing
+• Excellent typography hierarchy
+• Balanced whitespace
+• Responsive layout
+• High readability
+• Consistent color palette
+• Elegant hover effects
+• Smooth active states
+• Pleasant focus states
+• Refined scrolling
+• Nice selection colors
+• Subtle animations (CSS only)
+• Hardware accelerated transforms when possible
+
+Color palette:
+
+Create a dark premium theme using colors such as:
+
+Background:
+#0f172a
+#111827
+#0b1220
+
+Surface:
+#1e293b
+#1f2937
+rgba() glass effects
+
+Accent colors:
+#22c55e
+#10b981
+#06b6d4
+#3b82f6
+
+Text:
+#ffffff
+#cbd5e1
+#94a3b8
+
+Buttons should feel tactile with subtle elevation.
+
+Song list should have:
+
+- beautiful hover effects
+- active song highlighting
+- smooth transitions
+- pleasant spacing
+- modern rows
+- elegant separators
+- refined typography
+
+Scrollbar:
+
+Style the scrollbar to match the theme.
+
+Animations:
+
+Use CSS transitions and keyframes only.
+
+Performance:
+
+Avoid heavy filters or expensive animations.
+
+IMPORTANT
+
+Do NOT use Tailwind classes.
+
+Do NOT use CSS frameworks.
+
+Do NOT require Tailwind.
+
+Do NOT require Bootstrap.
+
+Do NOT require any library.
+
+Use only standard CSS.
+
+Return edits ONLY for:
+- src/App.css
+- src/components/tracks/SongList.css
