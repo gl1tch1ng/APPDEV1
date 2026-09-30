@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Interaction</title>
+    <!-- This script tag brings in Tailwind CSS automatically -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<!-- The body has a default gray background, but we added a transition so the color change looks smooth -->
+<body class="bg-gray-100 min-h-screen flex flex-col items-center justify-center transition-colors duration-500 font-sans">
+
+    <!-- A nice floating white card -->
+    <div class="bg-white p-8 rounded-xl shadow-lg text-center max-w-md">
+        <h1 class="text-2xl font-bold text-gray-800 mb-4">Otaku Hub Settings</h1>
+
+        <!-- Tailwind styled button -->
+        <button id="themeBtn" class="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-2 px-6 rounded-lg shadow-md transition transform hover:scale-105 mb-6">
+            Change Theme Color
+        </button>
+
+        <!-- A styled message box -->
+        <div class="p-4 bg-blue-50 border-l-4 border-blue-500 rounded text-left">
+            <p id="statusMsg" class="text-blue-700 font-medium animate-pulse">
+                ⏳ Connecting to anime servers...
+            </p>
+        </div>
+    </div>
+
+    <!-- The required Vanilla JavaScript -->
+    <script>
+        // 1. Changing the background using prompt()
+        const themeButton = document.getElementById("themeBtn");
+        themeButton.addEventListener("click", () => {
+            const newColor = prompt("Enter a background color (e.g., 'lightblue', '#1a1a1a', or 'pink'):");
+            
+            // Only change it if the user actually typed something
+            if (newColor) {
+                document.body.style.backgroundColor = newColor;
+            }
+        });
+
+        // 2. Updating the paragraph after 2 seconds using setTimeout()
+        const statusMessage = document.getElementById("statusMsg");
+        setTimeout(() => {
+            // Change the text!
+            statusMessage.textContent = "✅ Servers connected! Ready to binge watch.";
+            
+            // Optional: Update Tailwind classes via JS to make it look 'successful'
+            statusMessage.classList.remove("animate-pulse"); 
+            statusMessage.classList.replace("text-blue-700", "text-green-700");
+        }, 2000);
+    </script>
+
+</body>
+</html>
