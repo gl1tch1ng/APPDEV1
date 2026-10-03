@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>this is a test</title>
+    </head>
+
+<body>
+    <h1>working on it...</h1>
+
+<script>
+    console.log("The Inline script has ran successfully")
+</script>
+<script src="app.js"></script>
+
+<script src="legacy.js"></script>
+
+<script type="module" src="app.js"></script>
+
+<script type="module">
+    import { userInfo } from "./15_modules_export.js";
+    console.log(userInfo.name)
+</script>
+</body>
+</html>
