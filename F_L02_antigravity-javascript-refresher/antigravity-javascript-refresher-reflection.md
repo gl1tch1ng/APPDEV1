@@ -1,9 +1,13 @@
 ### 01_base_syntax.js
-***Prompt***
-I need help completing the 01_base_syntax.js exercise. Can you please write the code to print 'Hello JavaScript' to the console. Then after that, create two
-  variables, myName and myname, assign them different string values, and print them both. You must only use let and console.log. Briefly explain your plan before
-  writing the code, and wait for my approval to proceed.
+**Prompt:**
+Using only 01_base_syntax.js as the target, please help me solve this
+  exercise. These are the requirements: 1) Log the phrase 'Hello Anime
+  World!'. 2) Declare two variables using let: one named heroName and
+  another named heroname (different casing). Assign them with two
+  different anime protagonists (like 'Naruto' and 'Luffy'). 3) Then Log
+  both variables to the console to prove they are different. Please
+  explain your plan first, wait for my approval, then write the code, run
+  it, and briefly explain the lines
 
 **Reflection:**
-what i understand is pwedeng gamitin si antigravity para gumawa ng code at magprint ng Hello Havascript sa console, tas pwede nyang gawin na gumawa ng dalawang variables, myName at myname, tas yun, yun yung nasa ppt eh, kaya ganun, pwede rin pala na pahintayin sya and wait ng permission ng user bago gumawa ng code si agy
-
+I used anime as the subject for this, at binigyan ko sya ng requirements, like pagdedeclare ng two variables, pag log ng phrase na hellow anime world, at pag log both variables sa console para maiprove na iba sila
