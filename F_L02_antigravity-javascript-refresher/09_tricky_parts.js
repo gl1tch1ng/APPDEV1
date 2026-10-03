@@ -1,36 +1,50 @@
-console.log(10 == "10");   // true
-console.log(10 === "10");  // false
- 
-let upcomingSeason;
-let cancelledAnime = null;
- 
-console.log(upcomingSeason); // undefined
-console.log(cancelledAnime); // null
+// 1. Loose Equality (==) vs Strict Equality (===)
+console.log("--- 1. Equality ---");
+console.log("10 == '10'  :", 10 == "10");   // true (type coercion)
+console.log("10 === '10' :", 10 === "10");  // false (strict: number !== string)
 
-const watcher = {
-  name: "Mel",
-  regularMethod: function () {
-    console.log(this.name);
-  },
-  arrowMethod: () => {
-    console.log(this.name);
-  },
+// 2. undefined vs null
+console.log("\n--- 2. Undefined vs Null ---");
+let unassignedSkill;
+let sealedPower = null;
+console.log("Unassigned Skill:", unassignedSkill); // undefined
+console.log("Sealed Power    :", sealedPower);      // null
+
+// 3. 'this' Binding in Object Methods vs Arrow Functions
+console.log("\n--- 3. 'this' Binding ---");
+const fighter = {
+    name: "Megumi",
+    regularMethod: function () {
+        console.log("Regular Method 'this.name':", this.name);
+    },
+    arrowMethod: () => {
+        console.log("Arrow Method 'this.name'  :", this.name);
+    }
 };
- 
-watcher.regularMethod(); // "Mel" (normal functions know who called them)
-watcher.arrowMethod();   // undefined (arrow functions do not have their own 'this')
 
-const myWatchlist = ["Dandadan", "Dr. Stone"];
- 
-const sharedWatchlist = myWatchlist;
-sharedWatchlist.push("Jujutsu Kaisen");
-console.log(myWatchlist); 
- 
-const safeWatchlist = [...myWatchlist];
-safeWatchlist.push("Bungo Stray Dogs");
+fighter.regularMethod(); // "Megumi" (bound to fighter object)
+fighter.arrowMethod();   // undefined (arrow functions inherit lexical 'this')
 
-console.log(myWatchlist);   
-// ["Dandadan", "Dr. Stone", "Jujutsu Kaisen"] - untouched
+// 4. Hoisting Demonstration
+console.log("\n--- 4. Hoisting ---");
+console.log("Hoisted Function Call:", instantJutsu());
 
-console.log(safeWatchlist); 
-// ["Dandadan", "Dr. Stone", "Jujutsu Kaisen", "Bungo Stray Dogs"] - its own separate array
+function instantJutsu() {
+    return "⚡ Instant Transmission Jutsu activated!";
+}
+
+console.log("Hoisted var (before assignment):", chant);
+var chant = "Domain Expansion!";
+console.log("var (after assignment):", chant);
+
+// 5. Reference vs Value (Array Mutation vs Spread Clone)
+console.log("\n--- 5. Reference vs Value ---");
+const originalRoster = ["Goku", "Vegeta"];
+const sharedReference = originalRoster;
+sharedReference.push("Piccolo");
+console.log("Original after shared reference push:", originalRoster);
+
+const safeClone = [...originalRoster];
+safeClone.push("Gohan");
+console.log("Original after cloned push (untouched):", originalRoster);
+console.log("Safe Cloned Array:", safeClone);

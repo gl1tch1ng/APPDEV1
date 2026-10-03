@@ -61,3 +61,12 @@ Open `08_essential_features.js`. Explain: 1) How `.map()` transforms character p
 
 **Reflection:**
 Mastering modern JavaScript features like `.map()`, destructuring, and the spread operator (`...`) makes handling list data much cleaner. Using anime party rosters as an analogy showed how `.map()` creates new transformed arrays, destructuring cleanly pulls properties from character objects, and spread allows immutable array updates without modifying original data.
+
+### 09_tricky_parts.js
+
+**Prompt:**
+Open `09_tricky_parts.js`. Explain: 1) How 'this' binding works in different contexts, 2) The difference between loose equality (==) and strict equality (===), and 3) How variable hoisting behaves, using an anime skill activation sequence as an analogy. Do not modify code yet. Give me a step-by-step plan to solve `09_tricky_parts.js`, wait for my approval, then write and run the code.
+
+**Reflection:**
+Understanding JavaScript's tricky quirks like context binding, coercion, and hoisting clarifies common runtime bugs. Comparing loose vs. strict equality highlighted implicit type conversion traps, while seeing `this` binding in action demonstrated how execution context dictates variable resolution.
+
