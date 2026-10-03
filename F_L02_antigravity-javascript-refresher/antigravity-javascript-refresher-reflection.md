@@ -21,3 +21,19 @@ Open `03_functions.js`. Do not write code yet. Explain regular functions, functi
 
 **Reflection:**
 Comparing JavaScript functions to anime special attack formulas made concepts like parameters and return values crystal clear. Parameters act as input energy or chakra multipliers, while the return value represents the final attack damage output. Converting standard functions into modern arrow functions (`() => {}`) makes the codebase cleaner while keeping the exact same combat calculation logic.
+
+### 04_arrays.js
+
+**Prompt:**
+Open `04_arrays.js`. Do not write code yet. Explain how JavaScript arrays and array methods (like `push`, `pop`, `length`, and zero-based indexing) work using an anime squad roster as an example (like the Straw Hat Pirates or Class 1-A recruits). Then give me a step-by-step plan to solve `04_arrays.js`, wait for my approval, then write and run the code.
+
+**Reflection:**
+Modeling arrays as an anime squad roster made index positions and array methods intuitive. Zero-based indexing means index `0` is always the captain or leader. Using `.push()` recruits a new member to the back of the team, `.pop()` removes the last member, and `.length` tracks the current total squad size.
+
+### 05_objects.js
+
+**Prompt:**
+Open `05_objects.js`. Do not write code yet. Explain how JavaScript objects, key-value pairs, dot notation, and bracket notation work using an anime guild profile card as an example (like an Adventurer Guild card with properties like `name`, `rank`, `magicType`, and `guildName`). Then give me a step-by-step plan to solve `05_objects.js`, wait for my approval, then write and run the code.
+
+**Reflection:**
+Thinking of JavaScript objects as anime guild profile cards made key-value pairs and property access very clear. Dot notation (`character.rank`) provides a quick, clean way to read or update character stats, while bracket notation allows dynamic key access. Grouping related attributes inside a single object makes managing complex entity data structured and efficient.
