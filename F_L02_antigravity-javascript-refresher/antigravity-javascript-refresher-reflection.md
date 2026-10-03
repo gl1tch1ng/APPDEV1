@@ -70,3 +70,10 @@ Open `09_tricky_parts.js`. Explain: 1) How 'this' binding works in different con
 **Reflection:**
 Understanding JavaScript's tricky quirks like context binding, coercion, and hoisting clarifies common runtime bugs. Comparing loose vs. strict equality highlighted implicit type conversion traps, while seeing `this` binding in action demonstrated how execution context dictates variable resolution.
 
+### 10_async_foundations.js
+
+**Prompt:**
+Open `10_async_foundations.js`. Explain: 1) What a callback function is and how asynchronous execution works in JS, 2) Why callback hell occurs, and 3) How `setTimeout` simulates fetching character data from an anime database. Do not modify code yet. Give me a step-by-step plan to solve `10_async_foundations.js`, wait for my approval, then write and run the code.
+
+**Reflection:**
+Asynchronous foundations like callbacks and timer functions explain how JavaScript handles non-blocking operations without freezing the main execution thread. Simulating network delays via `setTimeout` illustrated how asynchronous tasks execute outside the main synchronous call stack, setting up the need for modern Promises.
