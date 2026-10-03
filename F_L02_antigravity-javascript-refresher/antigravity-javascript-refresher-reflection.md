@@ -37,3 +37,11 @@ Open `05_objects.js`. Do not write code yet. Explain how JavaScript objects, key
 
 **Reflection:**
 Thinking of JavaScript objects as anime guild profile cards made key-value pairs and property access very clear. Dot notation (`character.rank`) provides a quick, clean way to read or update character stats, while bracket notation allows dynamic key access. Grouping related attributes inside a single object makes managing complex entity data structured and efficient.
+
+### 06_control_structures.js
+
+**Prompt:**
+Open `06_control_structures.js`. Do not write code yet. Explain how `if/else` conditionals, `switch` statements, and loops (`for`, `while`) work using an anime tournament arc or stamina check as an example (e.g., checking if `heroStamina > 20` to perform a special move, or a `for` loop iterating through 5 tournament rounds). Then give me a step-by-step plan to solve `06_control_structures.js`, wait for my approval, then write and run the code.
+
+**Reflection:**
+Relating control structures to anime tournament rules and stamina checks made logic flow easy to follow. `if/else` branching allows dynamic decision-making based on variable thresholds (like remaining energy), while loops automate repeated combat actions or round progression until a stopping condition is met.

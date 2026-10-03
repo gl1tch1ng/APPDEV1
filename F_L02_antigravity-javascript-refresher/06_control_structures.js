@@ -1,19 +1,42 @@
-let battery = 76;
-if (battery >= 90) {
-    console.log("You're still good to go for the day.");
-} else if (battery >= 80) {
-    console.log("A little low than before, but still plenty for the day.");
-} else if (battery >= 70) {
-    console.log("I mean, it's not bad, but it's also not great");
-} else 
-    {console.log("If you're starting with that battery percentage, you should probably bring a powerbank or something.");
-    }
+// 1. If-Else Conditionals (Stamina Check)
+let heroStamina = 50;
 
-for (let f = 1; f <= 8; f++)
-{console.log(f);}
-
-let num = 0;
-while (num < 8) {
-    console.log("Yo")
-    num++;
+if (heroStamina >= 80) {
+    console.log("Stamina High: Unleash Ultimate Finisher (Super Spirit Bomb)!");
+} else if (heroStamina >= 20) {
+    console.log("Stamina Sufficient: Perform Special Attack (Kamehameha)!");
+} else {
+    console.log("Stamina Low: Fall back and recharge ki.");
 }
+
+// 2. Switch Statement (Battle Form Check)
+let battleForm = "Super Saiyan";
+
+switch (battleForm) {
+    case "Base":
+        console.log("Form: Normal combat capabilities.");
+        break;
+    case "Super Saiyan":
+        console.log("Form: 50x power multiplier active!");
+        break;
+    case "Ultra Instinct":
+        console.log("Form: Supreme speed and automated dodging!");
+        break;
+    default:
+        console.log("Form: Unknown transformation mode.");
+}
+
+// 3. For Loop (Tournament Rounds)
+console.log("--- Tournament Begins ---");
+for (let round = 1; round <= 5; round++) {
+    console.log(`Tournament Round ${round}: Begin Battle!`);
+}
+
+// 4. While Loop (Energy Depletion)
+console.log("--- Energy Depletion Simulation ---");
+let energy = 30;
+while (energy > 0) {
+    console.log(`Attacking! Energy remaining: ${energy}`);
+    energy -= 10;
+}
+console.log("Energy depleted! Hero must rest.");
