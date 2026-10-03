@@ -1,15 +1,20 @@
-function whispher(secret) {
-    return "My secret is " + secret;
-};
+// 1. Regular Function (Function Declaration)
+function calculateAttack(attackName, basePower, multiplier) {
+    return attackName + " dealt " + (basePower * multiplier) + " damage!";
+}
 
-const cube = num => {
-    return num * num * num;
-};
+// 2. Arrow Function (One-liner with implicit return)
+const boostPower = (power, multiplier) => power * multiplier;
 
-function calculator(f, g) {
-    return { sum: f + g, product: f * g }
-};
+// 3. Function returning an Object
+function calculateBattleStats(basePower, chakraMultiplier) {
+    return {
+        standardDamage: basePower * chakraMultiplier,
+        criticalDamage: basePower * chakraMultiplier * 1.5
+    };
+}
 
-console.log(whispher("I'm not telling :)"));
-console.log(cube(5));
-console.log(calculator(6, 7));
+// 4. Function Invocations & Logging
+console.log(calculateAttack("Rasengan", 100, 3));
+console.log("Boosted Kamehameha Power:", boostPower(250, 4));
+console.log("Battle Stats:", calculateBattleStats(80, 2.5));

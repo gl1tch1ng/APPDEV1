@@ -13,3 +13,11 @@ Open `02_variables.js`. Do not write the code yet. First, explain the difference
 
 **Reflection:**
 Using anime stats made understanding data types much more fun. A string is just text (like a name), a number is for math (like a power level), and a boolean is a simple true/false toggle (like hero status). I also learned that `==` allows JavaScript to try and convert types before comparing, which can cause bugs, while `===` is a strict comparison that checks both the value and the type. The `typeof` operator acts like a scouter, identifying exactly what data type a variable is holding.
+
+### 03_functions.js
+
+**Prompt:**
+Open `03_functions.js`. Do not write code yet. Explain regular functions, function expressions, and arrow functions using an anime character's special attack calculation (like Goku's Kamehameha or Naruto's Rasengan damage formula with `basePower` and `chakraMultiplier`). After the explanation, give a step-by-step plan to implement `03_functions.js` using both standard functions and arrow functions. Ask for my approval before executing.
+
+**Reflection:**
+Comparing JavaScript functions to anime special attack formulas made concepts like parameters and return values crystal clear. Parameters act as input energy or chakra multipliers, while the return value represents the final attack damage output. Converting standard functions into modern arrow functions (`() => {}`) makes the codebase cleaner while keeping the exact same combat calculation logic.
