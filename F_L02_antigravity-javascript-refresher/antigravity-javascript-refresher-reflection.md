@@ -45,3 +45,11 @@ Open `06_control_structures.js`. Do not write code yet. Explain how `if/else` co
 
 **Reflection:**
 Relating control structures to anime tournament rules and stamina checks made logic flow easy to follow. `if/else` branching allows dynamic decision-making based on variable thresholds (like remaining energy), while loops automate repeated combat actions or round progression until a stopping condition is met.
+
+### 07_dom.html
+
+**Prompt:**
+Open `07_dom.html`. Do not modify it yet. Explain: 1) What element the button targets, 2) What event listener is used, 3) Why `setTimeout` waits before changing the paragraph, and 4) What I should click and observe in the browser, using an anime battle HUD example. Then give me a short plan to test and solve `07_dom.html`, wait for my approval, then write and run the code.
+
+**Reflection:**
+Understanding DOM manipulation through an anime HUD interface made button event listeners and dynamic updates straightforward. `document.querySelector` targets elements like UI status bars, while `setTimeout` introduces delayed state changes, mirroring spell cast delays or battle alerts.
