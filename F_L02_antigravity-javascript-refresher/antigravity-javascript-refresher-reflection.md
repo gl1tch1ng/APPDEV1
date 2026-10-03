@@ -11,3 +11,16 @@ Using only 01_base_syntax.js as the target, please help me solve this
 
 **Reflection:**
 I used anime as the subject for this, at binigyan ko sya ng requirements, like pagdedeclare ng two variables, pag log ng phrase na hellow anime world, at pag log both variables sa console para maiprove na iba sila
+
+### 02_variables.js
+**Prompt:**
+Next, Open 02_variables.js. and do not write the code yet. You should
+  first explain the difference between a string, number, and boolean using
+  an anime character's stats as examples (like a character's name, their
+  power level, and whether they are a hero or a villain). Then you should
+  explain what typeof does, and clarify the exact difference between ==
+  and ===. Once you explain these concepts, you must give me a short
+  implementation plan to solve the exercise
+
+**Reflection:**
+Pina open ko sya muna ng 02_variables.js file, tsaka pinaexplain ko sya ng pinagkaiba ng string, number, at bolean gamit anime kineme, tas ayun, explain muna yung what typeof, tsaka clarification ng exact difference between == at ===
