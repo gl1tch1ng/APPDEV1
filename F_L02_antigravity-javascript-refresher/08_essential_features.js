@@ -1,11 +1,23 @@
-const animelist = ["Atri -My Dear Moments-", "Bungo Stray Dogs", "Dandadan"];
-animelist.map(anime => console.log(anime));
- 
-const student = { name: "Mel", age: 21 };
-const { name, age } = student;
-console.log(name, age);
- 
-const memes = [5, 6, 7];
-const newMemes = [...memes, 8, 9]; // [1, 2, 3, 4, 5]
-console.log(newMemes);
+// 1. Array Transformation with .map()
+const basePowers = [1000, 2500, 4000];
+const boostedPowers = basePowers.map(power => power * 50);
 
+console.log("Original Powers:", basePowers);
+console.log("Boosted Powers (50x Multiplier):", boostedPowers);
+
+// 2. Object Destructuring
+const hunterProfile = {
+    name: "Sung Jinwoo",
+    rank: "S-Rank",
+    classType: "Shadow Monarch"
+};
+
+const { name, rank } = hunterProfile;
+console.log(`Hunter: ${name} | Rank: ${rank}`);
+
+// 3. Array Spread Operator (...)
+const originalParty = ["Frieren", "Himmel", "Heiter", "Eisen"];
+const updatedParty = [...originalParty, "Fern", "Stark"];
+
+console.log("Original Party:", originalParty);
+console.log("Updated Party with Recruits:", updatedParty);

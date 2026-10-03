@@ -53,3 +53,11 @@ Open `07_dom.html`. Do not modify it yet. Explain: 1) What element the button ta
 
 **Reflection:**
 Understanding DOM manipulation through an anime HUD interface made button event listeners and dynamic updates straightforward. `document.querySelector` targets elements like UI status bars, while `setTimeout` introduces delayed state changes, mirroring spell cast delays or battle alerts.
+
+### 08_essential_features.js
+
+**Prompt:**
+Open `08_essential_features.js`. Explain: 1) How `.map()` transforms character power stats, 2) How destructuring extracts character stats like `name` and `rank`, and 3) How spread copies an anime party roster before adding a new companion. Do not modify code yet. Give me a step-by-step plan to solve `08_essential_features.js`, wait for my approval, then write and run the code.
+
+**Reflection:**
+Mastering modern JavaScript features like `.map()`, destructuring, and the spread operator (`...`) makes handling list data much cleaner. Using anime party rosters as an analogy showed how `.map()` creates new transformed arrays, destructuring cleanly pulls properties from character objects, and spread allows immutable array updates without modifying original data.
