@@ -24,3 +24,16 @@ Next, Open 02_variables.js. and do not write the code yet. You should
 
 **Reflection:**
 Pina open ko sya muna ng 02_variables.js file, tsaka pinaexplain ko sya ng pinagkaiba ng string, number, at bolean gamit anime kineme, tas ayun, explain muna yung what typeof, tsaka clarification ng exact difference between == at ===
+
+### 03_functions.js
+**Prompt:**
+You should now next 03_functions.js. Do not write code yet, as usual
+  Explain regular functions, function expressions, and arrow functions
+  using an anime character's special attack calculation (like Goku's
+  Kamehameha or Naruto's Rasengan damage formula with basePower and
+  chakraMultiplier). After the explanation, give a step-by-step plan to
+  implement 03_functions.js using both standard functions and arrow
+  functions. Ask for my approval before executing
+
+**Reflection:**
+i just made it explain regualr funcrtions, funcrtion expressions, and the like, with anime theme of course, then made it gave a step by step plant to implement the file using both standard function and arro keys, thats all
