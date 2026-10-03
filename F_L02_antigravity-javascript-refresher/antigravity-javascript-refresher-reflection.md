@@ -37,3 +37,14 @@ You should now next 03_functions.js. Do not write code yet, as usual
 
 **Reflection:**
 i just made it explain regualr funcrtions, funcrtion expressions, and the like, with anime theme of course, then made it gave a step by step plant to implement the file using both standard function and arro keys, thats all
+
+### 04_arrays.js
+**Prompt:**
+Open 04_arrays.js. Do not write code yet. Explain how JavaScript arrays
+  and array methods (like push, pop, length, and zero-based indexing) work
+  using an anime squad roster as an example (like the Straw Hat Pirates or
+  Class 1-A recruits). Then give me a step-by-step plan to solve
+  04_arrays.js, wait for my approval, then write and run the code
+
+**Reflection:**
+Pina ano ko lang, pina explain yung pop push at length sa mga arrays, except dito na sa JS, tas example nya straw hat pirates, galing sa one piece hehe, tas yun, step-by-step plan ulit
