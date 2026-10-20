@@ -1,0 +1,162 @@
+.card {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: var(--color-white);
+  border-radius: 0; /* Removes outer rounded corners so it fills the browser window */
+  overflow: hidden;
+  font-family: var(--font-main);
+}
+
+.heroImage {
+  width: 555px;
+  height: 100%;
+  object-fit: cover;
+  border-top-right-radius: var(--radius-card);
+  border-bottom-right-radius: var(--radius-card);
+}
+
+.content {
+  flex: 1;
+  padding: 60px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 1. Greeting Heading (Shifted towards the banner image on the left) */
+.greeting {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  align-self: flex-start;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.hello { color: var(--color-heading-light); }
+.comma { color: var(--color-secondary); }
+.guys { 
+  color: var(--color-subtext); 
+  font-size: 48px; 
+  font-weight: 400; 
+}
+
+/* 2. Navigation Tabs (Increased bottom margin for extra spacing before inputs) */
+.tabs {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 75px; /* Spaced further apart from the email input */
+  width: 266px;
+  justify-content: flex-start;
+}
+
+.tabActive {
+  color: var(--color-secondary);
+  font-size: 36px;
+  font-weight: 700;
+  cursor: pointer;
+  border-bottom: 3px solid var(--color-secondary);
+  padding-bottom: 4px;
+}
+
+.tabInactive {
+  color: var(--color-inactive);
+  font-size: 36px;
+  font-weight: 700;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  padding-bottom: 4px;
+}
+
+/* Form Controls */
+.form {
+  width: 432px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.inputField {
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid var(--color-secondary);
+  padding: 8px 0;
+  font-size: 24px;
+  font-family: var(--font-main);
+  outline: none;
+  background: transparent;
+  color: var(--color-secondary);
+}
+
+.inputField::placeholder {
+  color: var(--color-placeholder);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* 3. Evenly Spaced Button, "Or" Divider, and Icons */
+.submitBtn {
+  width: 100%;
+  height: 56px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--font-main);
+  cursor: pointer;
+  margin-top: 15px;
+  transition: opacity 0.2s ease;
+}
+
+.submitBtn:hover {
+  opacity: 0.9;
+}
+
+.divider {
+  color: var(--color-placeholder);
+  font-size: 24px;
+  font-weight: 400;
+  margin: 35px 0; /* Equal vertical spacing above and below "Or" */
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialIcon {
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+  object-fit: contain;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 900px) {
+  .card {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .heroImage {
+    display: none;
+  }
+
+  .greeting {
+    align-self: center;
+    margin-left: 0;
+  }
+
+  .form {
+    width: 100%;
+  }
+}

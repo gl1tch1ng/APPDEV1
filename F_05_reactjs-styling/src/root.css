@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  /* Extracted Colors */
+  --color-primary: #4B687A;
+  --color-secondary: #5F7C8D;
+  --color-heading-light: #7A999C;
+  --color-subtext: #567281;
+  --color-placeholder: rgba(95, 124, 141, 0.60);
+  --color-inactive: rgba(95, 124, 141, 0.39);
+  --color-white: #FFFFFF;
+  --color-facebook: #1877F2;
+
+  /* Typography */
+  --font-main: 'Istok Web', sans-serif;
+
+  /* Shapes & Shadows */
+  --radius-card: 20px;
+  --shadow-card: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
